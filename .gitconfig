@@ -1,0 +1,2 @@
+[alias]
+        dev-branch = "!bt() { git branch $(echo 'dev-')$1;}; bt"
